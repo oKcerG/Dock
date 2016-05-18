@@ -1,0 +1,22 @@
+{
+  "name": "fr.grecko.dock",
+  "description": "A convenient way to anchors in another Item",
+  "author": {
+    "name": "oKcerG",
+    "email": "gr3cko@gmail.com"
+  },
+  "repository": {
+    "type": "GITHUB",
+    "url": "https://github.com/oKcerG/Dock.git"
+  },
+  "version": {
+    "label": "0.1",
+    "revision": "",
+    "fingerprint": ""
+  },
+  "dependencies": [
+  ],
+  "license": "MIT",
+  "pri_filename": "dock.pri",
+  "webpage": ""
+}
