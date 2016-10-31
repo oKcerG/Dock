@@ -28,11 +28,9 @@ Dock* Dock::qmlAttachedProperties(QObject *object)
     return new Dock(item);
 }
 
-struct DockTypeRegisterHelper {
-    DockTypeRegisterHelper()
-    {
+static void registerDockTypes()
+{
         qmlRegisterUncreatableType<Dock>("Dock", 0, 1, "Dock", "Dock is only available via attached properties");
-    }
-};
+}
 
-static const DockTypeRegisterHelper typeRegisterHelper;
+Q_COREAPP_STARTUP_FUNCTION(registerDockTypes)
